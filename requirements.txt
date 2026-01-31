@@ -1,0 +1,13 @@
+# GDELT Cleaning Pipeline - Dependencies
+
+# HTTP client with streaming support
+httpx>=0.25.0
+
+# Type hints backports
+typing-extensions>=4.8.0
+
+# Development dependencies (install with: pip install -e ".[dev]")
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0
+# mypy>=1.6.0
+# ruff>=0.1.0
