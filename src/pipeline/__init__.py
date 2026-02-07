@@ -1,6 +1,5 @@
-# Pipeline Orchestration
-"""End-to-end pipeline orchestration for GDELT ingestion and processing."""
+"""End-to-end pipeline orchestration for GDELT ingestion, embedding, and search."""
 
-from .orchestrator import GDELTPipeline, PipelineConfig
+from .run import main as run_pipeline
 
-__all__ = ["GDELTPipeline", "PipelineConfig"]
+__all__ = ["run_pipeline"]
